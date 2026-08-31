@@ -1,11 +1,26 @@
-$schema: https://api.gitbook.com/openapi.yaml#/components/schemas/GitSyncSiteConfig
+$schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: Qredax Docs
   structure:
     - type: space
-      key: docs
-      title: Qredax Docs
-      path: /
+      key: docs-en
+      title: English
+      path: undefined
       default: true
       content:
-        directory: /
+        directory: ./undefined
+        language: en
+    - type: space
+      key: docs-zh
+      title: 中文
+      path: zh
+      content:
+        directory: ./zh
+        language: zh
+    - type: space
+      key: docs-ru
+      title: Русский
+      path: ru
+      content:
+        directory: ./ru
+        language: ru
