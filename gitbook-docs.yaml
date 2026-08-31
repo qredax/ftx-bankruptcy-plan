@@ -3,24 +3,10 @@ site:
   title: Qredax Docs
   structure:
     - type: space
-      key: docs-en
-      title: English
-      path: undefined
-      default: true
-      content:
-        directory: ./undefined
-        language: en
-    - type: space
-      key: docs-zh
-      title: 中文
-      path: zh
-      content:
-        directory: ./zh
-        language: zh
-    - type: space
       key: docs-ru
       title: Русский
       path: ru
+      default: true
       content:
         directory: ./ru
         language: ru
